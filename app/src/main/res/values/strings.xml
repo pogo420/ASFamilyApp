@@ -3,4 +3,9 @@
     <string name="calculators_value">Calculators</string>
     <string name="ph_value">PlaceHolder</string>
     <string name="emi_calculator">EMI Calculator</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="rate">Rate(%p.a.)</string>
+    <string name="tenure">Tenure(Years)</string>
+    <string name="emi_amount">Emi Amount</string>
+    <string name="calculate_string">Calculate</string>
 </resources>

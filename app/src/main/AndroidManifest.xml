@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ASFamilyApp">
+        <activity android:name=".EmiCalcActivity"></activity>
         <activity
             android:name=".CalculatorActivity"
-            android:label="@string/calculators_value"></activity>
+            android:label="@string/calculators_value" />
         <activity android:name=".MasterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

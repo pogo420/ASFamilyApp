@@ -8,4 +8,26 @@
         <item name="android:layout_margin">1dp</item>
         <item name="android:background">@color/secondaryColor</item>
     </style>
+    <style name="formLabel">
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+    <style name="formText">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:background">@color/secondaryColor</item>
+    </style>
+    <style name="button">
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
 </resources>

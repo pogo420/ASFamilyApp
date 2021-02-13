@@ -5,13 +5,8 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/calc"
-        android:text="@string/calculators_value"
+        android:id="@+id/emi"
+        android:text="@string/emi_calculator"
         style="@style/listItems"
         />
-    <TextView
-        android:text="@string/ph_value"
-        style="@style/listItems"
-        />
-
 </LinearLayout>

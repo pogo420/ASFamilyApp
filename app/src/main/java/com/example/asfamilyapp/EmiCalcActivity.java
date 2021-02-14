@@ -13,8 +13,8 @@ public class EmiCalcActivity extends AppCompatActivity {
 
     private double calculateEMI(double principal, double rate, double tenure){
         // logic for calculating EMI
-        double monthRate = rate/12;
-        double emi = principal * monthRate * (Math.pow(1+monthRate, tenure)/(Math.pow(1+monthRate, tenure)-1));
+        double monthRate = rate/1200;
+        double emi = principal * monthRate * (Math.pow(1+monthRate, tenure*12)/(Math.pow(1+monthRate, tenure*12)-1));
         return emi;
     }
 
@@ -22,6 +22,11 @@ public class EmiCalcActivity extends AppCompatActivity {
         // logic for getting data from text box
         TextView data = (TextView) findViewById(resource);
         return data.getText().toString();
+    }
+
+    private void setData(int emi_amount, double emi) {
+        TextView data = (TextView) findViewById(emi_amount);
+        data.setText(String.valueOf(Math.round(emi)));
     }
 
     @Override
@@ -47,10 +52,4 @@ public class EmiCalcActivity extends AppCompatActivity {
             }
         });
     }
-
-    private void setData(int emi_amount, double emi) {
-        TextView data = (TextView) findViewById(emi_amount);
-        data.setText(String.valueOf(Math.round(emi)));
-    }
-
 }

@@ -22,6 +22,7 @@
         <item name="android:padding">16dp</item>
         <item name="android:layout_margin">1dp</item>
         <item name="android:background">@color/secondaryColor</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_colour</item>
     </style>
     <style name="button">
         <item name="android:layout_width" >wrap_content</item>
